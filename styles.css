@@ -1,0 +1,33 @@
+th, td {
+    border: 2px solid white;
+    padding: 2px;
+    text-align: center;
+}
+
+body {
+    background-color: #000044;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+textarea {
+    resize: none;
+    background-color: #005599;
+    color: white;
+}
+
+.bass-button {
+    background-color: #003377;
+}
+
+.bluegill-button {
+    background-color: #00aaaa;
+}
+
+button {
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: #003377;
+    color: white;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js" defer></script> 
+    <script src="index.js" defer></script>
+    <title>Fishing Tracker</title>
+</head>
+<body>
+    <h1>Fishing Tracker</h1>
+    <table>
+        <tbody>
+            <tr>
+                <th>Participant</th>
+                <th>Largest Bluegill</th>
+                <th>Largest Bass</th>
+                <th>INPUT 
+                    <br>
+                    <button onclick="setFish('bluegill')" class="bluegill-button">Bluegill</button>
+                    <button onclick="setFish('bass')" class="bass-button">Bass</button></th>
+            </tr>
+            <tr>
+                <td><textarea rows="1" cols="15" class="participant-field"></textarea></td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                    <textarea rows="1" cols="8"></textarea>
+                    <button class="confirmBtn" onclick="submitFish(this)">Confirm</button></td>
+            </tr>
+            <tr>
+                <td><textarea rows="1" cols="15" class="participant-field"></textarea></td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                    <textarea rows="1" cols="8"></textarea>
+                    <button class="confirmBtn" onclick="submitFish(this)">Confirm</button></td>
+            </tr>
+            <tr>
+                <td><textarea rows="1" cols="15" class="participant-field"></textarea></td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                    <textarea rows="1" cols="8"></textarea>
+                    <button class="confirmBtn" onclick="submitFish(this)">Confirm</button></td>
+            </tr>
+            <tr>
+                <td><textarea rows="1" cols="15" class="participant-field"></textarea></td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                    <textarea rows="1" cols="8"></textarea>
+                    <button class="confirmBtn" onclick="submitFish(this)">Confirm</button></td>
+            </tr>
+            <tr>
+                <td><textarea rows="1" cols="15" class="participant-field"></textarea></td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                    <textarea rows="1" cols="8"></textarea>
+                    <button class="confirmBtn" onclick="submitFish(this)">Confirm</button></td>
+            </tr>
+            <tr>
+                <td><textarea rows="1" cols="15" class="participant-field"></textarea></td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                    <textarea rows="1" cols="8"></textarea>
+                    <button class="confirmBtn" onclick="submitFish(this)">Confirm</button></td>
+            </tr>
+            <tr>
+                <td><textarea rows="1" cols="15" class="participant-field"></textarea></td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                    <textarea rows="1" cols="8"></textarea>
+                    <button class="confirmBtn" onclick="submitFish(this)">Confirm</button></td>
+            </tr>
+            <tr>
+                <td><textarea rows="1" cols="15" class="participant-field"></textarea></td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                    <textarea rows="1" cols="8"></textarea>
+                    <button class="confirmBtn" onclick="submitFish(this)">Confirm</button></td>
+            </tr>
+            <tr>
+                <td><textarea rows="1" cols="15" class="participant-field"></textarea></td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                    <textarea rows="1" cols="8"></textarea>
+                    <button class="confirmBtn" onclick="submitFish(this)">Confirm</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h2>Bluegill Stats</h2>
+    <p id="bluegillStats">No catches yet</p>
+    <p id="largestbluegill"></p>
+    <h2>Bass Stats</h2>
+    <p id="bassStats">No catches yet</p>
+    <p id="largestbass"></p>
+    <h2>Overall Stats</h2>   
+    <p id="overallStats">No catches yet</p> 
+    <h2>Catch List</h2>
+    <p id="catchList">No catches yet</p>
+</body>
+</html>
